@@ -45,7 +45,7 @@ var email = {
   receiver: "Calli Herrmann",
   body: "Click here to claim your coupon!",
   timeReceived: "7:03 AM",
-  totalEmails: 190,
+  totalEmails: 17,
 }
 // Write code that logs your email object to the terminal.
 console.log(email);
@@ -70,7 +70,7 @@ console.log(Object.values(email));
 // Check out the following example of an array of Instagram posts:
 
 
-// var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 
 // An Array of Objects is probably more realistic. Objects are a data type that's great
@@ -78,25 +78,25 @@ console.log(Object.values(email));
 // that relate to each individual Instagram post:
 
 
-// posts = [
-//   {
-//     imageSrc: "./images/beach.png",
-//     caption: "At the beach with my besties",
-//     timestamp: "4:37 PM August 13, 2019",
-//     number_likes: 0,
-//     comments: []
-//   }, 
-//   {
-//     imageSrc: "./images/holiday-party.png",
-//     caption: "What a great holiday party omg",
-//     timestamp: "11:37 PM December 31, 2019",
-//     number_likes: 13,
-//     comments: []
-//   }
-// ];
+posts = [
+  {
+    imageSrc: "./images/beach.png",
+    caption: "At the beach with my besties",
+    timestamp: "4:37 PM August 13, 2019",
+    number_likes: 0,
+    comments: []
+  }, 
+  {
+    imageSrc: "./images/holiday-party.png",
+    caption: "What a great holiday party omg",
+    timestamp: "11:37 PM December 31, 2019",
+    number_likes: 13,
+    comments: []
+  }
+];
 
-// console.log(posts);
-// console.log(posts[0]);
+console.log(posts);
+console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -108,3 +108,30 @@ console.log(Object.values(email));
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+manyEmails = [
+  {
+    sender: "Shein",
+    subject: "Big Discount!!!",
+    receiver: "Calli Herrmann",
+    body: "Click here to claim your coupon!",
+    timeReceived: "7:03 AM",
+    totalEmailsReceived: 17,
+  },
+  {
+    sender: "Mom",
+    subject: "Love you!",
+    receiver: "Calli Herrmann",
+    body: "Hello dear! Just wanted to say I love you! Have a great day.",
+    timeReceived: "3:00 PM",
+    totalEmailsReceived: 200,
+  },
+  {
+    sender: "State Farm",
+    subject: "Bill Ready",
+    receiver: "Calli Herrmann",
+    body: "Please click below to see your bill for this month.",
+    timeReceived: "5:00 PM",
+    totalEmailsReceived: 5,
+  },
+]
+console.log(manyEmails);
